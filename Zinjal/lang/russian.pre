@@ -2317,7 +2317,7 @@ Wrong project path (filename exists)
 NEWWIZARD_CONFIRM_REPLACE
 There is a project in the choosen path. Do you want to replace it?
 GENERIC_WARNING
-Warning
+Предупреждение
 NEWWIZARD_CONFIRM_OVERWRITE_DIR
 There is already a folder in the choosen path. Do you want to create project there anyway?
 NEWWIZARD_ERROR_ON_FILE_COPY
@@ -2563,7 +2563,7 @@ File containing macros for gdb
 PREFERENCES_DEBUG_USE_BLACKLIST
 Use blacklist for step-in
 PREFERENCES_DEBUG_BLACKLIST_BUTTON
-Setup...
+Установки...
 PREFERENCES_DEBUG_NO_DEBUG_HEAP
 Disable Window's special debug heap
 PREFERENCES_DEBUG_VALIDATE_BREAKPOINT_ADDRESS
