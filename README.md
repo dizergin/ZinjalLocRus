@@ -11,5 +11,5 @@
 Тем кто хочет участвовать в локализации
 1. Основная информация для перевода содержиться в файле russian.pre, он **должен** быть локализован в кодировке win1251
 2. Локализуемые файлы справки также должны быть локализованы в кодировке win1251, и помимо этого заголовок должен содержать строки
-==<meta http-equiv="Content-Language" content="russian">==
-==<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">==
+\\<meta http-equiv="Content-Language" content="russian">
+\\<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
