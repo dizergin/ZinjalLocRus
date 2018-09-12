@@ -1,25 +1,25 @@
 ZINJAI_LANGUAGE_FILE
-english
+russian
 HTMLEXPORT_STATUS
-Generating_html...
+Генерирую html...
 GENERAL_READY
-Ready
+Готово
 MAINW_CT_ERRORS
-Errors
+Ошибки
 MAINW_CT_WARNINGS
-Warnings
+Предупреждения
 CONFIG_NO_TERMINAL_FOUND
 No known console application was found. Please\ninstall xterm, konsole or gnome-terminal; then\ngo to "Console application" field in "Paths 2"\ntabsin "Preferences" (from "File" menu) dialog\nand set it.
 CONFIG_TERMINAL_WARNING
 The only one known terminal application found in this system is <{1}>.\nSome versions of this app can cause problems when trying to run compiled\nprograms/projects from ZinjaI. If you cannot run any program/project, try to set\na different terminal application(from "File" menu, choose "Preferences..." and change\nthe files "Terminal Command" from "Paths 2" tab, recommended terminal is xterm).
 CONFIG_TERMINAL
-Console Application
+Консольное приложение
 CONFIG_COMPILER
-C++ compiler
+Компилятор C++
 CONFIG_COMPILER_NOT_FOUND
 C++ compiler (g++) was not found in your system. You must\ninstall it with your distribution's package maganer(aptitude,\nyum, yast, installpkg...).
 CONFIG_DEBUGGER
-Debugger
+Отладчик
 CONFIG_DEBUGGER_NOT_FOUND
 GNU source-level debugger (gdb) was not found in your\nsystem. You must install it with your distribution's\npackage maganer(aptitude, yum, yast, installpkg...).
 PROJMNGR_WXFB_NOT_FOUND
@@ -27,7 +27,7 @@ This projects need wxFormBuilder, but this ZinjaI can't find this\nsoftware. To 
 PROJMNGR_REGENERATING_ERROR_2
 Automatic updates for this project will be temporarily disabled.
 GENERAL_WARNING
-Warning
+Предупреждение
 MAINW_DOXYGEN_MISSING
 Doxygen isn't present in your system or its path isn't correctly defined\nin ZinjaI's settings. To download Doxygen go to http://www.doxygen.org.\nIf it is already installed, check the path in "Paths 2" tab in\nPreference's dialog (from "File" menu).
 MAINW_VALGRIND_MISSING
@@ -37,87 +37,87 @@ CppCheck isn't present in your system or its path isn't correctly defined\nin Zi
 CONFIG_MAC_DEADKEYS_PROBLEM_QUESTION
 Do you use Alt Gr plus the keys rigth to 'P' and 'ГѓВ‘' for\ninserting '[' and '{' symbols (Spanish-ISO keyboard)?\n\nNote: if you experience problems with your keyboard later,\nyou'll be able to change this setting from Preferences diagog.
 CONFIG_APTGET_BUILD_ESSENTIAL
-Try to install it now.
+Попытайтесь установить сейчас.
 CONFIG_GOTO_PACKAGE_WEBSITE
-Open website (<{1}>)
+Открыть вебсайт (<{1}>)
 CONFIG_OPEN_PREFERENCES
-Open Preferences' dialog
+Открыть диалог Настройки среды и предочтения
 CONFIG_APTGET_FAILED
-Automatic installation failled.
+Автоматичкская установка неудачна.
 CONFIG_ABOUT_TO_APTGET
-The missing software will be installed next in a new terminal.\nThis action may require root password.\nZinjaI will continue when the new terminal is closed.
+Отсутствующие ПО будет установлено в новом окне терминала.\nЭто действие моет потребовать администратоского пароля.\nZinjaI продолжит работу когда окно нового терминала закроется.
 MAINW_CUSTOM_TOOL_UNDEFINED
-This tool is not completelly configured.\nUse item "Settings..." in "Custom Tools" submenu from "Tools" menu.
+Этот инструмент не отконфигурирован до конца.\nИспользуйте пункт "Установки..." в подменю "Дополнительные инструменты" меню "Инструменты".
 GENERAL_ERROR
-Error
+Ошибка
 DEBUG_STATUS_STARTING
-Starting...
+Стартую...
 DEBUG_ERROR_STARTING_SPACES
-Error creating process. Try moving project or executable to another folder without spaces in its path.
+Ошибка запуска процесса. Передвиньте проект в другую папку не содержащую пробельных символов в названиии.
 DEBUG_ERROR_STARTING
-Error starting process (if executable's path contains space try moving it to another path without spaces).
+Ошибка запуска процесса (если путь к выполняемому файлу содержит пробелы, перенесите файл в другую папку (без пробелов в названии и пути).
 OSD_STARTING_DEBUGGER
-Starting debugger...
+Запуск отладчика...
 GENERA_CONSOLE_CAPTION
-ZinjaI - Execution Terminal
+ZinjaI - Консоль выполнения
 DEBUG_ERROR_WITH_TERMINAL
-There's been an error starting the terminal for debugging.\nCheck if field "Console Application" in tab "Paths 2"\nin Preference's dialog" is correct.
+Возникла ошибка при запуске терминаля в процессе отладки.\nПроверьте корректность поля "Консольное приложение" во вкладке "Путь 2"\nдиалога "Настройки среды и предпочтения".
 DEBUG_STATUS_INIT_ERROR
-Failed to start debugging
+Неудачная инициализация отладчика
 DEBUG_NO_SYMBOLS
-The file you're trying to debug has no debugging symbols.\nCheck in debugging options that debug information is enable,\nand verify that the field "Strip executable" is not checked\nin "Linking" tab. Then recompile the project if it's needed\n(Run -> Clean, Run -> Compile).
+Отлаживаемый файл н содержит отладочной информации.\nПроверте что задействована оция включения отладочной информации,\nи поле "УБрат из Exe инфо" не отмечено\nво вкладке "Компоновка". Затем откомпилируйте проект заново\nВыполнить -> Выполнить(Сохранить и компилировать если необходимо).
 DEBUG_ERROR_STATING_GDB
-There's been an error starting debugger.
+Возникла ошибка при запуске отладчика.
 DEBUG_ERROR_STARTING_GDB_LINUX
-If debbuger (gdb) is not installed in your system,\nyou must install it with your distribution's package\nmanager (apt-get, yum, yast, installpkg, ...).
+Если отладчик (gdb) не установлен в вашей системе,\nвам следует установить его через менеджер - установщик инсталяционных пакетов\n(apt-get, yum, yast, installpkg, ...).
 DEBUG_SPECIAL_START_FAILED
-Failed to start debugging:
+Неудачное начало отладки:
 OSD_LOADING_CORE_DUMP
-Loading core dump...
+Загрузка дампа ядра...
 DEBUG_STATUS_RUNNING
-Running...
+Выполнение...
 DEBUG_STATUS_UNKNOWN
-Unknown status
+Неизвестный статус
 DEBUG_STATUS_BREAK
-Breakpoint hitted
+Сработала точка останова
 DEBUG_STATUS_WATCH
-Interrupted due to Watchpoint: 
+Прервано из за точки просмотра:
 DEBUG_STATUS_WATCH_OUT
-Watchpoint is out of scope now: 
+Точка просмотра вне области видимости:
 DEBUG_STATUS_LOCATION_REACHED
-The program has reached selected location
+Выполнение программы достигло выбраной локации
 DEBUG_STATUS_FUNCTION_ENDED_RETVAL
-Return value: 
+Возвращаемое значение:
 DEBUG_STATUS_FUNCTION_ENDED
-Function has ended
+Функция завершилась
 DEBUG_STATUS_STEP_DONE
-Step done
+Шаг сделан
 DEBUG_STATUS_ENDED_NORMALLY
-Program has ended normally
+Программа завершилась нормально
 DEBUG_STATUS_EXIT_WITH_CODE
-Program exited with code 
+Программа вышла с кодом
 DEBUG_STATUS_TRAP
-Stopped for debugging
+Остановлено для отладки
 DEBUG_STATUS_ABNORMAL_INTERRUPTION
-Program has stopped abnormally (
+Программа остановлена ненормально (
 DEBUG_STATUS_TERMINAL_CLOSED
-Program's terminal was closed
+Терминал программы закрыт
 DEBUG_STATUS_PAUSE_UNKNOWN_REASON
-Interrupted, unknown reason
+Прервано, по неизвестной причине
 BACKTRACE_NO_INFO
-<<No backtrace info available>>
+<<Недоступна трассировочная информация>>
 BACKTRACE_NOT_AVAILABLE
-<<not available>>
+<<недоступно>>
 BACKTRACE_NO_ARGUMENTS
-<<not available>>
+<<недоступно>>
 DEBUG_STATUS_PREFIX
-   Debug: 
+   Отладка:
 DEBUG_ERROR_REVERSE
 There was an error trying to activate this feature.\nYou need gdb 7.0 or newer to use it, and it's no supported\non every platform.
 DEBUG_REVERSE_DISABLED
 You can only step back to the point where you have enabled inverse execution.\nBut it haven't been enable. Use the command "Enable Inverse Execution"\nfrom debug menu to do it.
 THREADS_NO_THREADS
-<<No threads>>
+<<Нет потоков>>
 THREADS_NO_INFO
 <<Thread info not available>>
 DEBUG_BAD_BREAKPOINT_WARNING
@@ -137,57 +137,57 @@ Defined in
 PARSERHELP_GENERIC_CLASS
 Generic class:
 PARSERHELP_THIS_ONE_INHERITS_FROM
-Inherits from:
+Наследуется от:
 PARSERHELP_OTHER_ONE_INHERIT_FROM
-inherits from
+наследуется от
 PARSERHELP_ONE_CLASS_INHERITS_FROM_PRE
-Class
+Класс
 PARSERHELP_ONE_CLASS_INHERITS_FROM_POST
-inherits from
+наследуется от
 PARSERHELP_MANY_CLASSES_INHERIT_FROM_PRE
-Classes
+Классы
 PARSERHELP_MANY_CLASSES_INHERIT_FROM_POST
-inherit from
+наследуется от
 PARSERHELP_NAMESPACE
-Name space
+Простанство имен
 PARSERHELP_OWN_ATTRBUTES
-Own attributes:
+Атрибуты (свои):
 PARSERHELP_VARIABLES
-Variables:
+Переменные:
 PARSERHELP_NO_OWN_ATTRIBUTE_FOUND
-No own attributes found.
+Не найдено собственных атрибутов.
 PARSERHELP_OWN_METHODS
-Own methods:
+Методы (свои):
 PARSERHELP_FUNCTIONS
-Functions:
+Функции:
 PARSERHELP_NO_OWN_METHOD_FOUND
-No own methods found.
+Не найдены собственные методы.
 PARSERHELP_DOXY_DESC
-Description from Doxygen's comments:
+Описание из комментариев Doxygen:
 PARSERHELP_NO_DOXYGEN
-No Doxygen's description found.
+Не найдены описания Doxygen.
 PARSERHELP_CONSTRUCTOR_FROM_CLASS_PRE
-Constructor
+Конструктор
 PARSERHELP_CONSTRUCTOR_FROM_CLASS_POST
-from class
+из класса
 PARSERHELP_DESTRUCTOR_FROM_CLASS_PRE
-Destructor
+Деструктор
 PARSERHELP_DESTRUCTOR_FROM_CLASS_POST
-from class
+из класса
 PARSERHELP_METHOD_FROM_CLASS_PRE
-Method
+Метод
 PARSERHELP_METHOD_FROM_CLASS_POST
-from class
+из класса
 PARSERHELP_VISIBILITY_PUBLIC
-Visibility: Public
+Видимость: Public
 PARSERHELP_VISIBILITY_PRIVATE
-Visibility: Private
+Видимость: Private
 PARSERHELP_VISIBILITY_PROTECTED
-Visibility: Protected
+Видимость: Protected
 PARSERHELP_PROTOTYPE
-Prototype:
+Прототип:
 PARSERHELP_DECLARED_IN_PRE
-Declared in
+Объявлено в
 PARSERHELP_FUNCTION
 Function
 PARSERHELP_ENUM
@@ -227,449 +227,449 @@ INSPECTION_MSG_ERROR
 CODE_CANNOT_GENERATE_FUNCTION
 Could not determine the function prototype.
 MENUITEM_FILE
-&File
+&Файл
 MENUITEM_FILE_NEW
-&New...
+&Новый...
 MENUITEM_FILE_NEW_PROJECT
-New Project...
+Новый проект...
 MENUITEM_FILE_OPEN
-Open...
+Открыть...
 MENUITEM_FILE_RECENT_SOURCES
-Recent Files
+Последние открытые файлы
 MENU_FILE_RECENT_MORE
-More...
+Больше...
 MENUITEM_FILE_RECENT_PROJECTS
-Recent Projects
+Последние открытые проекты
 MENUITEM_FILE_SAVE
-Save
+Сохранить
 MENUITEM_FILE_SAVE_AS
-Save As...
+Сохранить как...
 MENUITEM_FILE_SAVE_ALL
-Save All
+Сохранить все
 MENUITEM_FILE_SAVE_PROJECT
-Save Project
+Сохранить проект
 MENUITEM_FILE_EXPORT_HTML
-Export to HTML...
+Экспортировать в HTML...
 MENUITEM_FILE_PRINT
-Print...
+Печать...
 MENUITEM_FILE_RELOAD
-Reload
+Загрузить заново
 MENUITEM_FILE_CLOSE
-Close
+Закрыть
 MENUITEM_FILE_CLOSE_ALL
-Close All
+Закрыть все
 MENUITEM_FILE_CLOSE_PROJECT
-Close Project
+Закрыть проект
 MENUITEM_FILE_PROJECT_CONFIG
-Project's General Settings...
+Общие параметры проекта...
 MENUITEM_FILE_PREFERENCES
-Preferences...
+Настройки среды и предпочтения...
 MENUITEM_FILE_EXIT
-Exit
+Выход
 MENUITEM_EDIT
-&Edit
+&Редактирование
 MENUITEM_EDIT_UNDO
-Undo
+Отменить
 MENUITEM_EDIT_REDO
-Redo
+Вернуть
 MENUITEM_EDIT_UNDO_HISTORY
-Changes history...
+История изменений...
 MENUITEM_EDIT_CUT
-Cut
+Вырезать
 MENUITEM_EDIT_COPY
-Copy
+Копировать
 MENUITEM_EDIT_PASTE
-Paste
+Вставить
 MENUITEM_EDIT_LINES_UP
-Toggle Lines Up
+Переместить строки вверх
 MENUITEM_EDIT_LINES_DOWN
-Toggle Lines Down
+Переместить строки вниз
 MENUITEM_EDIT_DUPLICATE_LINES
-Duplicate Lines
+Дублировать строки
 MENUITEM_EDIT_DELETE_LINES
-Delete Lines
+Удалить строки
 MENUITEM_EDIT_GOTO_FUNCTION
-Go To Function/Class/Method...
+Перейти к Функции/Классу/Методу...
 MENUITEM_EDIT_GOTO_FILE
-Go To File...
+Перейти к файлу...
 MENUITEM_EDIT_GOTO_LINE
-Go To Line...
+Перейти к строке...
 MENUITEM_EDIT_FIND
-Find...
+Найти...
 MENUITEM_EDIT_FIND_PREV
-Find Previous
+Найти предыдущее
 MENUITEM_EDIT_FIND_NEXT
-Find Next
+Найти далее
 MENUITEM_EDIT_REPLACE
-Replace
+Заменить
 MENUITEM_EDIT_INSERT_INCLUDE
-Insert Selection's Related #include
+Вставить относящиеся к выделенному #include
 MENUITEM_EDIT_COMMENT
-Comment Lines
+Закомментировать строки
 MENUITEM_EDIT_UNCOMMENT
-Uncomment Lines
+Убрать комментирование
 MENUITEM_EDIT_INDENT
-Indent Selected Lines
+Увеличить отступ выделенных строк
 MENUITEM_EDIT_BRACEMATCH
-Select Logic Block
+Выделить логический блок
 MENUITEM_EDIT_SELECT_ALL
-Select All
+Выделить все
 MENUITEM_EDIT_HIGHLIGHT_LINES
-Toggle Lines HighLighting
+Установить/Убрать подсветку строк
 MENUITEM_EDIT_FIND_HIGHLIGHTS
-Find Next HighLighted Line
+Найти следующую подсвеченную строку
 MENUITEM_EDIT_LIST_HIGHLIGHTS
-List HighLighted Lines
+Список подсвеченных строк
 MENUITEM_VIEW
-&View
+&Вид
 MENUITEM_VIEW_SPLIT_VIEW
-&Duplicate view
+&Дублировать окно редактора
 MENUITEM_VIEW_LINE_WRAP
-Line Wrap
+Обтекание строк
 MENUITEM_VIEW_WHITE_SPACES
-Show WhiteSpace and EOL Characters
+Показывать  непечатыемые символы и конец строки
 MENUITEM_VIEW_SYNTAX_HIGHLIGHT
-Enable Syntax Highlighting
+Подсвечивать синтаксис
 MENUITEM_VIEW_CODE_COLOURS
-Configure colors' scheme...
+Конфигурация цветовой схемы...
 MENUITEM_VIEW_FOLDING
-Code Folding
+Сворачивание кода
 MENUITEM_FOLD_FOLD_THIS_LINE
-Fold This Line
+Свернуть эту строку
 MENUITEM_FOLD_UNFOLD_THIS_LINE
-Unfold This Line
+Развернуть эту строку
 MENUITEM_FOLD_FOLD_LEVEL_1
-Fold Level 1
+Свернуть уровень 1
 MENUITEM_FOLD_FOLD_LEVEL_2
-Fold Level 2
+Свернуть уровень 2
 MENUITEM_FOLD_FOLD_LEVEL_3
-Fold Level 3
+Свернуть уровень 3
 MENUITEM_FOLD_FOLD_LEVEL_4
-Fold Level 4
+Свернуть уровень 4
 MENUITEM_FOLD_FOLD_LEVEL_5
-Fold Level 5
+Свернуть уровень 5
 MENUITEM_FOLD_FOLD_ALL_LEVELS
-Fold All Levels
+Свернуть все уровни
 MENUITEM_FOLD_UNFOLD_LEVEL_1
-Unfold Level 1
+Развернуть уровень 1
 MENUITEM_FOLD_UNFOLD_LEVEL_2
-Unfold Level 2
+Развернуть уровень 2
 MENUITEM_FOLD_UNFOLD_LEVEL_3
-Unfold Level 3
+Развернуть уровень 3
 MENUITEM_FOLD_UNFOLD_LEVEL_4
-Unfold Level 4
+Развернуть уровень 4
 MENUITEM_FOLD_UNFOLD_LEVEL_5
-Unfold Level 5
+Развернуть уровень 5
 MENUITEM_FOLD_UNFOLD_ALL_LEVELS
-Unfold All Levels
+Развернуть все уровни
 MENUITEM_VIEW_FULLSCREEN
-Toggle Fullscreen
+Развернуть на весь экран
 MENUITEM_VIEW_BEGINNER_PANEL
-Show Mini-Templates Panel
+Показать панель с шаблонами (кода)
 MENUITEM_VIEW_LEFT_PANELS
-Show Trees' Panel
+Показать панель содержащую структурную информацию
 MENUITEM_VIEW_PROJECT_TREE
-Show Project Tree
+Показать структуру проекта
 MENUITEM_VIEW_EXPLORER_TREE
-Show Explorer Tree
+Показать обозреватель проекта
 MENUITEM_VIEW_SYMBOLS_TREE
-Show Symbols Tree
+Показать дерево символов проекта
 MENUITEM_VIEW_COMPILER_TREE
-Show Compiler Results Tree
+Показать результат работы компилятора
 MENUITEM_VIEW_MINIMAP
-Show Mini-&map (experimental)
+Показать панель эскиза навигации (экспериментальная)
 MENUITEM_VIEW_TOOLBARS
-Toolbars
+Показать/Скрыть панели инструментов
 MENUITEM_VIEW_TOOLBAR_FILE
-Show File Toolbar
+Файл
 MENUITEM_VIEW_TOOLBAR_EDIT
-Show Edit Toolbar
+Редактирование
 MENUITEM_VIEW_TOOLBAR_VIEW
-Show View Toolbar
+Показать
 MENUITEM_VIEW_TOOLBAR_FIND
-Show Quick Find Toolbar
+Быстрый поиск
 MENUITEM_VIEW_TOOLBAR_RUN
-Show Run Toolbar
+Выполнение
 MENUITEM_VIEW_TOOLBAR_TOOLS
-Show Tools Toolbar
+Инструменты
 MENUITEM_VIEW_TOOLBAR_PROJECT
-&Show Project Toolbar
+&Проект
 MENUITEM_VIEW_TOOLBAR_DEBUG
-Show Debug Toolbar
+Отладка
 MENUITEM_VIEW_TOOLBAR_MISC
-Show Miscelaneous Toolbar
+Разное
 MENUITEM_VIEW_TOOLBARS_CONFIG
-Preferences...
+Настроить панели инструментов...
 MENUITEM_VIEW_PREV_ERROR
-Go To Previous Error
+Перейти к предыдущей ошибке
 MENUITEM_VIEW_NEXT_ERROR
-Go To Next Error
+Перейти к следующей ошибке
 MENUITEM_RUN
-&Run
+&Выполнение
 MENUITEM_RUN_RUN
-Run (save and compile if needed)
+Выполнить (сохранить и компилировать если необходимо)
 MENUITEM_RUN_OLD
-Run (dont recompile)
+Выполнить (без рекомпиляции)
 MENUITEM_RUN_COMPILE
-Compile
+Компилировать
 MENUITEM_RUN_CLEAN
-Clean
+Очистить
 MENUITEM_RUN_STOP
-Stop
+Остановить
 MENUITEM_RUN_OPTIONS
-Configure...
+Параметры проекта...
 MENUITEM_DEBUG
-&Debug
+&Отладка
 MENUITEM_DEBUG_START
-Start/Continue
+Начать/Продолжить
 MENUITEM_DEBUG_PAUSE
-Pause
+Пауза
 MENUITEM_DEBUG_STOP
-Stop
+Остановить
 MENUITEM_DEBUG_STEP_IN
-Step In
+Шагнуть с заходом (внутрь функцию)
 MENUITEM_DEBUG_STEP_OVER
-Step Over
+Шагнуть без захода (внутрь функции)
 MENUITEM_DEBUG_STEP_OUT
-Step Out
+Шагнуть с выходом из функции
 MENUITEM_DEBUG_AUTO_STEP
-Automatically Repeat Step In/Over
+Автоматически повторять шаги с Заходом/Без захода
 MENUITEM_DEBUG_RUN_UNTIL
-Run Until Carret Line
+Выполнить до текущей позиции курсора
 MENUITEM_DEBUG_RETURN
-Return...
+Вернуть...
 MENUITEM_DEBUG_JUMP
-Jump To Carret Line
+Переместиться к текущей позиции курсора
 MENUITEM_DEBUG_TOGGLE_BREAKPOINT
-Toggle Breakpoint
+Установить/Убрать точки останова
 MENUITEM_DEBUG_BREAKPOINT_OPTIONS
-Breakpoint Options...
+Параметры точек останова...
 MENUITEM_DEBUG_LIST_BREAKPOINTS
-List Break/Watchpoints...
+Список точек Останова/Наблюдения...
 MENUITEM_DEBUG_INSPECT
-Show Inspections Panel
+Показать панель наблюдения
 MENUITEM_DEBUG_BACKTRACE
-Show Backtrace Panel
+Показать панель трассировки
 MENUITEM_DEBUG_THREADLIST
-&Threads List
+&Список потоков
 MENUITEM_DEBUG_SHOW_LOG_PANEL
-Show Debbuger's Log
+Показать журнал отладки
 MENUITEM_DEBUG_MORE
-More...
+Больше...
 MENUITEM_DEBUG_ATTACH
-Attach To Running Instance...
+Присоеденить к запущенному приложению...
 MENUITEM_DEBUG_TARGET
-&Connect...
+&Связать с...
 MENUITEM_DEBUG_LOAD_CORE_DUMP
-Load Core Dump...
+Загрузить дамп ядра процессора...
 MENUITEM_SAVE_CORE_DUMP
-Save Core Dump...
+Сохранить дамп ядра процессора...
 MENUITEM_DEBUG_ENABLE_INVERSE
-Enable Inverse Execution
+Задействовать инверсное исполнение
 MENUITEM_DEBUG_INVERSE
-Toggle Execution Direction
+Переключить направление исполнения
 MENUITEM_DEBUG_SET_SIGNALS
-Setup signals handling...
+Параметры обработки сигналов...
 MENUITEM_DEBUG_SEND_SIGNALS
-Send signal...
+Послать сигнал...
 MENUITEM_DEBUG_SHOW_REGISTERS
-Show registers panel...
+Показать содержимое регистров процессора...
 MENUITEM_DEBUG_SHOW_ASM
-Show disassembly panel...
+Показать панел дизассемблирования...
 MENUITEM_DEBUG_GDB_COMMAND
-Enter gdb commands...
+Ввести команды отладыика gdb...
 MENUITEM_DEBUG_PATCH
-Update executable on debugger...
+Обновить исполняемый в отладчике исполняемый файл...
 MENUITEM_TOOLS
-&Tools
+&Инструменты
 MENUITEM_TOOLS_DRAW_FLOWCHART
-Draw Flow Chart...
+Показать блок схему функции...
 MENUITEM_TOOLS_DRAW_CLASS_HIERARCHY
-Draw Class Hierarchy...
+Показать иерархию класса...
 MENUITEM_TOOLS_CODE
-Code generation
+Генерация кода
 MENUITEM_TOOLS_CODE_COPY_FROM_H
-Implement Missing Functions/Methods...
+Создать нереализованные Функции/Методы...
 MENUITEM_TOOLS_CODE_GENERATE_FUNCTION_DEC
-Generate function definition from current call
+Сгенерировать определение функции по текущему вызову
 MENUITEM_TOOLS_CODE_GENERATE_FUNCTION_DEF
-Generate function declaration from current call
+Сгенерировать объявление функции по текущему вызову
 MENUITEM_TOOLS_CODE_EXTRACT_FUNCTION
-Extract code to a new function
+Экстракция кода в новую функцию
 MENUITEM_TOOLS_CODE_SURROUND_IF
-Surround code with "if() { ... }"
+Заключить код в "if() { ... }"
 MENUITEM_TOOLS_CODE_SURROUND_WHILE
-Surround code with "while () { ... }"
+Заключить код в "while () { ... }"
 MENUITEM_TOOLS_CODE_SURROUND_DO
-Surround code with "do { ... } while();"
+Заключить код в "do { ... } while();"
 MENUITEM_TOOLS_CODE_SURROUND_FOR
-Surround code with "for() { ... }"
+Заключить код в "for() { ... }"
 MENUITEM_TOOLS_CODE_SURROUND_IFDEF
-Surround code with "#ifdef ... #endif"
+Заключить код в "#ifdef ... #endif"
 MENUITEM_TOOLS_COMMON_HELP
-Help...
+Помощь...
 MENUITEM_TOOLS_COMMENTS
-Comments
+Комментарии
 MENUITEM_TOOLS_COMMENTS_ALIGN_COMMENTS
-Align Comments...
+Выровнять комментарии...
 MENUITEM_TOOLS_COMMENTS_COMMENT
-Comment Lines
+Закомментировать строки
 MENUITEM_TOOLS_COMMENTS_UNCOMMENT
-Uncomment Lines
+Раскомментировать строки
 MENUITEM_TOOLS_COMMENTS_DELETE_COMMENTS
-Delete All Comments
+Удалить все комментарии
 MENUITEM_TOOLS_PREPROC
-Preprocessor
+Препроцессор
 MENUITEM_TOOLS_PREPROC_EXPAND_MACROS
-Expand Macros
+Раскрыть макроопределения
 MENUITEM_TOOLS_PREPROC_MARK_VALID
-Mark Compiled Lines
+Пометить откомпилированные строки
 MENUITEM_TOOLS_PREPROC_UNMARK_ALL
-Clear Marks
+Убрать пометки
 MENUITEM_TOOLS_PREPROC_HELP
-Help...
+Помощь...
 MENUITEM_TOOLS_GENERATE_MAKEFILE
-Generate Makefile...
+Сгенерировать Makefile...
 MENUITEM_TOOLS_OPEN_TERMINAL
-Open Terminal...
+Открыть терминал...
 MENUITEM_TOOLS_EXE_INFO
-Executable File Properties...
+Свойства исполняемого файла...
 MENUITEM_TOOLS_PROJECT_STATISTICS
-Project Statistics...
+Статистика проекта...
 MENUITEM_TOOLS_DRAW_PROJECT
-Project's Graph...
+Граф зависимостей проекта...
 MENUITEM_TOOLS_SHARE
-Share Sources In Local Network
+Общие исходники в локальной сети
 MENUITEM_TOOLS_SHARE_OPEN
-Open Shared File...
+Открыть общий файл...
 MENUITEM_TOOLS_SHARE_SHARE
-Share Current File...
+Сделать текущий файл общим...
 MENUITEM_TOOLS_SHARE_LIST
-Show Shared Files List...
+Показать список общих файлов...
 MENUITEM_TOOLS_DIFF
-Compare Files (diff)
+Сравнить файлы (diff)
 MENUITEM_TOOLS_DIFF_TWO
-Compare Two Open Files...
+Сравнить два открытых файла...
 MENUITEM_TOOLS_DIFF_DISK
-Compare Current File To Other File...
+Сравнить текущий файл с другим...
 MENUITEM_TOOLS_DIFF_HIMSELF
-Compare Current File To Its Disk Version..
+Сравнить текущий файл с сохраненной на диске версией..
 MENUITEM_TOOLS_DIFF_PREV
-Go To Previous Change
+Перейти к предыдущему изменению
 MENUITEM_TOOLS_DIFF_NEXT
-Go To Next Change
+Перейти к следующему изменению
 MENUITEM_TOOLS_DIFF_SHOW
-Show Changed Lines
+Показать измененные строки
 MENUITEM_TOOLS_DIFF_APPLY
-Apply Change
+Применить изменения
 MENUITEM_TOOLS_DIFF_DISCARD
-Discard Change
+Отменить изменения
 MENUITEM_TOOLS_DIFF_CLEAR
-Clear Marks
+Очистить отмеченное
 MENUITEM_TOOLS_LIZARD
-Measure complexity (lizard)
+Измерить сложность (lizard)
 MENUITEM_TOOLS_LIZARD_RUN
-Analize now...
+Анализировать сейчас...
 MENUITEM_TOOLS_DOXYGEN
-Generate Documentation (doxygen)
+Сгенерировать документацию (doxygen)
 MENUITEM_TOOLS_DOXYGEN_GENERATE
-Generate...
+Генерация...
 MENUITEM_TOOLS_DOXYGEN_CONFIGURE
-Configure...
+Конфигурация...
 MENUITEM_TOOLS_DOXYGEN_VIEW
-Open Result...
+Открыть результат...
 MENUITEM_TOOLS_WXFB
-GUI Designer (wxFormBuilder)
+Проектировщик GUI(wxFormBuilder)
 MENUITEM_TOOLS_WXFB_CONFIG
-Setup wxFormBuilder &integration
+Установки интеграции wxFormBuilder
 MENUITEM_TOOLS_WXFB_NEW_RESOURCE
-Attach New wxFB Project...
+Присоеденить новый wxFB проект...
 MENUITEM_TOOLS_WXFB_LOAD_RESOURCE
-Attach Existing wxFB Project...
+Присоеденить существующий wxFB проект...
 MENUITEM_TOOLS_WXFB_REGENERATE
-Regenerate All wxFB Projects
+Регенерировать все wxFB проекты
 MENUITEM_TOOLS_WXFB_INHERIT
-Generate Inherited Class...
+Сгенерировать наследуемый класс...
 MENUITEM_TOOLS_WXFB_UPDATE_INHERIT
-Update Inherited Class...
+Обновить наследуемый класс...
 MENUITEM_TOOLS_WXFB_REFERENCE
-wxWidgets Reference...
+Справка wxWidgets...
 MENUITEM_TOOLS_WXFB_HELP
-wxFB Help...
+Помощь wxFB...
 MENUITEM_TOOLS_CPPCHECK
-Static Analysis (cppcheck)
+Статический анализ (cppcheck)
 MENUITEM_TOOLS_CPPCHECK_RUN
-Start...
+Начало...
 MENUITEM_TOOLS_CPPCHECK_CONFIG
-Configure...
+Конфигурация...
 MENUITEM_TOOLS_CPPCHECK_VIEW
-Show Result's Panel
+Показать панель результатов
 MENUITEM_TOOLS_GPROF
-Execution Profiling (gprof)
+Профилирование выполнения (gprof)
 MENUITEM_TOOLS_GPROF_ACTIVATE
-Activate
+Активация
 MENUITEM_TOOLS_GPROF_LAYOUT
-Graph Layout
+Позиция графа
 MENUITEM_TOOLS_GPROF_DOT
 dot
 MENUITEM_TOOLS_GPROF_FDP
 fdp
 MENUITEM_TOOLS_GPROF_SHOW
-Show Results (graph)
+Показать результаты (граф)
 MENUITEM_TOOLS_GPROF_LIST
-List Results (text)
+Список результатов (текст)
 MENUITEM_TOOLS_GCOV
-Coverage &testing (gcov)
+Покрытие &тестирования (gcov)
 MENUITEM_TOOLS_GCOV_ACTIVATE
 Enable/Disable
 MENUITEM_TOOLS_GCOV_SHOW_BAR
-Show results bar
+Показать панель результатов
 MENUITEM_TOOLS_GCOV_RESET
-Delete results
+Удалить результаты
 MENUITEM_TOOLS_VALGRIND
-Dynamic Analysis (valgrind)
+Динамический анализ (valgrind)
 MENUITEM_TOOLS_VALGRIND_RUN
-Run...
+Запуск...
 MENUITEM_TOOLS_VALGRIND_VIEW
-Show Result's Panel
+Показать панель результатов
 MENUITEM_TOOLS_OBJDUMP
-Disassemble (objdump)
+Дизассемблирование (objdump)
 MENUITEM_TOOLS_OBJDUMP_DISASM_SELECTION
-Selected lines...
+Выделенные строки...
 MENUITEM_TOOLS_OBJDUMP_DISASM_FUNCTION
-Current function...
+Текущая функция...
 MENUITEM_TOOLS_CUSTOM_TOOLS
-Custom Tools
+Дополнительные инструменты
 MENUITEM_TOOLS_CUSTOM_TOOLS_SETTINGS
-Settings (general)...
+Установки (общие)...
 MENUITEM_TOOLS_PROJECT_TOOLS_SETTINGS
-Settings (project)...
+Установки (проекта)...
 MENUITEM_TOOLS_CREATE_TEMPLATE
-Save current project/file as new template...
+Сохранить текущий проект/файл как новый шаблон...
 MENUITEM_TOOLS_INSTALL_COMPLEMENTS
-Install Complements...
+Установить дополнения...
 MENUITEM_HELP
-&Help
+&Помощь
 MENUITEM_HELP_CPP
-C++ Help...
+Справочное руководсво C++...
 MENUITEM_HELP_ZINJAI
-ZinjaI's Help...
+Справка ZinjaI...
 MENUITEM_HELP_PROJECT
-Current project's custom help...
+Справка по текущиему проекту...
 MENUITEM_HELP_FIND_COMMAND
-Find and run command...
+Найти в справочной системе...
 MENUITEM_HELP_TUTORIALS
-Tutorials...
+Обучающие материалы...
 MENUITEM_HELP_SHORTCUTS
-Shorcuts' list...
+Список клавиш быстрого доступа...
 MENUITEM_HELP_TIPS
-Tip of the Day...
+Совет дня...
 MENUITEM_HELP_OPINION
-Send suggestions or report bugs...
+Послать предложения или сообщение об ошибках...
 MENUITEM_HELP_UPDATES
-Check for Updates...
+Проверить обновления...
 MENUITEM_HELP_ABOUT
-About...
+О программе...
 MENUITEM_GLOBAL_SHORTCUTS
 Other shortcuts
 MENUITEM_HIDDEN_HIGHLIGHT_KEYWORD
@@ -851,7 +851,7 @@ Clear Comparison Marks
 TOOLBAR_DESC_TOOLS_DIFF_CLEAR
 Tools -> Compare Files -> Clear Marks
 TOOLBAR_CAPTION_TOOLS_CUSTOM_TOOL
-Custom Tool 
+Custom Tool
 SYMBOLS_MACROS
 Macros and Misc.
 SYMBOLS_GLOBALS
@@ -875,7 +875,7 @@ Analizing
 PROJECT_ERROR_OPENING_FATHER
 Error reading father project "<{1}>".
 OSD_LOADING_PROJECT_PRE
-Opening 
+Opening
 OSD_LOADING_PROJECT_POST
 ...
 PROJMNGR_OPENING
@@ -911,19 +911,19 @@ The object "<{1}>" had future timestamp. It was replaced with current one
 PROJMNGR_NO_LIB_FOR_THAT_SOURCE
 Source file "<{1}>" is not attached to any library.
 PROJMNGR_LIB_WITHOUT_SOURCES
-Library "<{1}>" doesn't have any source file attached.
+Библиотека "<{1}>" не связана с файлом исходников.
 PROJMNGR_ICON_NOT_FOUND
-Icon file not found
+Файл иконки не найден
 PROJMNGR_MANIFEST_NOT_FOUND
-Manifest file not found
+Манифест не найден
 PROJMNGR_COMPILING
-Compiling
+Компиляция
 PROJMNGR_STEP_FROM
-step <{1}> from <{2}>
+шаг <{1}> из <{2}>
 PROJMNGR_RUNNING
-Running
+Выполнение
 PROJMNGR_LINKING
-Linking "
+Компоновка "
 PROJMNGR_STRIPING
 Moving debbuging information out of \"<{1}>\" - step <{2}> from 3...
 PROJMNGR_RUNNING_NO_EXE
@@ -939,13 +939,13 @@ PROJMNGR_REGENERATING_ERROR_4
 OSD_GENERATING_GRAPH
 Generating graph...
 PROJMNGR_PROJECT_GRAPH_BYTES
- bytes
+ байты
 PROJMNGR_PROJECT_GRAPH_LINES
- lines
+ строки
 PROJMNGR_PROJECT_GRAPH_SYMBOLS
- symbols
+ символы
 PROJMNGR_PROJECT_GRAPH_TITLE
-Project's Graph
+Граф проекта
 WXFB_ASK_BEFORE_AUTO_DELETING
 ZinjaI has detected thas class <{1}> was inherited\nfrom a base class previously autogenerated by wxFormBuilder\n(<{2}>) that has been recently deleted.\nDo you want to remove the child class' files from the project?\nThese files are:\n<{2}>\n\nWarning: you must be sure they don't contain definitions unrelated\nto the class, and that the base class was not simply renamed.
 PROJECT_DIRNOTFOUND_CREATE
@@ -961,81 +961,81 @@ There was a error retrieving the shared source. Try updating the shared sources'
 ERRORRECOVERY_OOPS_MESSAGE
 There was a problem and ZinjaI will be closed.\nLuckly, all your files have been save for recovery\nand changes won't be loosed. Next time you start\nZinjaI you will be asked to open them again.
 CAPTION_COMPILER_OUTPUT
-Compiler Output
+Сообщения компилятора
 MAINW_AUTOHIDE_COMPILER
-Compiler
+Компилятор
 CAPTION_QUIKHELP
-Quick Help
+Быстрая помощь
 MAINW_AUTOHIDE_QUICKHELP
-Help/Search
+Помощь/Поиск
 CAPTION_DEBUGGER_LOG
-Debugger's Log
+Журнал отладчика
 MAINW_AUTOHIDE_DEBUG_LOG
-Debugger Log
+Журнал отладки
 CAPTION_THREADLIST
-Threads List
+Список потоков
 MAINW_AUTOHIDE_THREADS
-Threads
+Потоки
 CAPTION_BACKTRACE
-Backtrace
+Трассировка
 CAPTION_INSPECTIONS
-Inspections
+Инспекции
 CAPTION_GROUPED_TREES
-Trees
+Деревья
 CAPTION_PROJECT_TREE
-Project Tree
+Обозреватель проекта
 MAINW_AUTOHIDE_PROJECT
-Project
+Проект
 CAPTION_SYMBOLS_TREE
-Symbols Tree
+Обозреватель символов
 MAINW_AUTOHIDE_SYMBOLS
-Symbols
+Символы
 CAPTION_EXPLORER_TREE
-Explorer Tree
+Обозреватель
 MAINW_AUTOHIDE_EXPLORER
-Explorer
+Обозреватель
 MAINW_BEGGINERS_PANEL
 Mini-templates
 MAINW_MINIMAP_PANEL
-Mini-map
+Эскиз
 ABOUT_CAPTION
-About...
+О программе...
 ABOUT_CLOSE
-Close
+Закрыть
 ARGUMENTS_CAPTION
-Arguments for execution
+Параметры выполнения
 COMPILECONF_RUNNING_ARGS
-Arguments for execution
+Параметры выполнения
 COMPILECONF_WORKDIR
-Working directory
+Рабочая папка
 GENERAL_DONT_ASK_AGAIN
-Don't ask again
+Не спрашивать снова
 ARGUMENTS_WITHOUT_ARGUMENTS
-&Without Arguments
+&Без аргументов
 COMPILECONF_WORKDIR_DLG
-Working directory:
+Рабочая папка:
 BACKTRACE_LEVEL
-Level
+Уровень
 BACKTRACE_FUNCTION
-Function
+Функция
 BACKTRACE_FILE
-File
+Файл
 BACKTRACE_LINE
-Line
+Строка
 BACKTRACE_ARGS
-Arguments
+Аргументы
 MAINW_FILE_NOT_FOUND
-File not found:
+Файл не найден:
 BACKTRACE_UPDATE
-Update
+Обновить
 BACKTRACE_HISTORY
-Generate History...
+Сгенерировать историю...
 BACKTRACE_PREVIOUS
 See previous backtrace
 BACKTRACE_GOTO_PRE
-Go to 
+Перейти
 BACKTRACE_GOTO_POST
- : 
+ :
 BACKTRACE_BLACKLIST_THIS_FILE
 Avoid stopping again in this file (blacklist for step-in)
 BACKTRACE_BLACKLIST_THIS_FUNCTION
@@ -1197,11 +1197,11 @@ Apply in profile
 COLORS_CAPTION
 Define Colours
 GENERAL_CANCEL_BUTTON
-&Cancel
+&Отменить
 GENERAL_OK_BUTTON
-  &Ok   
+  &Принять
 GENERAL_APPLY_BUTTON
-A&pply
+П&рименить
 COLOURS_INVERTED
 this is an inverted scheme (bright text on dark background)
 COLOURS_ESCHEME
@@ -1319,7 +1319,7 @@ Compilation finished ( elapsed time: <{1}> minutes and <{2}> seconds ).
 MAINW_COMPILING_DONE
 Compilation finished.
 MAINW_COMPILATION_CUSTOM_STEP_ERROR
-Error running custom compiling step: 
+Error running custom compiling step:
 MAINW_COMPILING_DOTS
 Compiling...
 MAINW_WARNING_NO_EXCUTABLE_PERMISSION
@@ -1375,7 +1375,7 @@ Exclude header files
 CUSTOM_TOOLS_CAPTION
 Custom Tools
 CUSTOM_TOOLS_ITEM
-Tool Number 
+Tool Number
 CUSTOM_TOOLS_COMBO
 Select a tool
 CUSTOM_TOOLS_NAME
@@ -1793,7 +1793,7 @@ GOTOFUNCTION_NO_RESULTS
 GOTOLINE_CAPTION
 Go To Line
 GENERAL_GOTO_BUTTON
-  &Go   
+  &Go
 GOTOLINE_YOURE_HERE
 You are in line <{1}> from <{2}>.
 GOTOFUNCTION_CASE_SENSITIVE
@@ -1805,7 +1805,7 @@ ZinjaI's Help
 HELPW_COMPLEMENTS_SECTION
 Complement's help pages
 HELPW_FORUM_TEXT
-Cannot find what you need here? Is it incomplete, outdated or wrong?  
+Cannot find what you need here? Is it incomplete, outdated or wrong?
 HELPW_FORUM_BUTTON
 use the Forum...
 HELPW_SEARCH_ERROR_EMPTY
@@ -2163,7 +2163,7 @@ Tool Result's  Panel
 MAINW_CANNOT_SPLIT_VIEW
 ZinjaI cannot split unnamed files
 MENUITEM_FILE_OPEN_ON_PROJECT
-&Open/Attach to project...
+&Открыть/Присоеденить к проекту...
 MAINW_MACRO_START
 Recording macro, press Ctrl+Shift+Q again to stop recording.
 MAINW_MACRO_STOP
@@ -2245,9 +2245,9 @@ Show progress while compiling (cmake style)
 MAKEFILE_GENERATE
 Generate
 GENERAL_NO_BUTTON
- &No  
+ &No
 GENERAL_YES_BUTTON
- &Yes 
+ &Yes
 MULTIFILE_CAPTION
 Add Files To Project
 MULTIFILE_DIR
@@ -2257,19 +2257,19 @@ search subdirectories
 MULTIFILE_FILTER
 2) Enter a filter for files' names
 MULTIFILE_FIND
- Find 
+ Find
 MULTIFILE_LIST
 Select files to add
 MAINW_PT_AUTO
 <detect by extension>
 MULTIFILE_WHERE
-Add to category: 
+Add to category:
 MULTIFILE_CONFIRM_ADD
 Do you want to add <{1}> files to project?
 GENERAL_CONFIRM
 Confirmn
 OSD_ADDING_FILES
-Attaching files... 
+Attaching files...
 MULTIFILE_DIR_CAPTION
 Choose a directory to start searching
 MULTIFILE_POPUP_ALL
@@ -2281,13 +2281,13 @@ invert checks
 CAPTION_NEW_FILE_WIZARD
 New File
 NEWWIZARD_NEXT
- Next 
+ Next
 NEWWIZARD_CANCEL
- Cancel 
+ Cancel
 NEWWIZARD_CREATE
- Create 
+ Create
 NEWWIZARD_CONTINUE
- Continue 
+ Continue
 NEWWIZARD_FILENAME
 Filename:
 NEWWIZARD_CLASSNAME
@@ -2375,7 +2375,7 @@ Includes the class destructor.
 NEWWIZARD_INHERIT_FROM
 Inherit from
 NEWWIZARD_BACK
- Back 
+ Back
 NEWWIZARD_SET_DEFAULT
 Save as default template
 NEWWIZARD_CHOOSE_TEMPLATE
@@ -2467,7 +2467,7 @@ Stop
 LAUNCH_STATUS_RUNNING
 Status: Running
 LAUNCH_STATUS_EXITCODE
-Status: Exit Code: 
+Status: Exit Code:
 LAUNCH_STATUS_FINISH
 Status: Finished
 PREFERENCES_CAPTION
@@ -2647,7 +2647,7 @@ Tab width
 PREFERENCES_STYLE_SPACES_INTEAD_TABS
 Use white spaces instead of tabs
 PREFERENCES_STYLE_EDGE_COLUM
-Show guide line in column 
+Show guide line in column
 PREFERENCES_STYLE_FONT_NAME
 Source code's font
 PREFERENCES_STYLE_SCREEN_FONT_SIZE
@@ -2885,7 +2885,7 @@ Copy from:
 PROJECTCONFIG_CANT_DELETE_LAST_PROFILE
 Cannot delete last profile.
 PROJECTCONFIG_CONFIRM_DELETE_PRE
-Delete profile 
+Delete profile
 PROJECTCONFIG_PROFILE_NEW_NAME
 New name:
 PROJECTCONFIG_ASK_FOR_SETTING_CURRENT_PROFILE
@@ -2919,17 +2919,17 @@ PROJECTCONFIG_IMPORT_LIBS
 PROJECTCONFIG_LIBS_TO_GENERATE
 Libraries to generate
 PROJECTCONFIG_LIBS_ADD
-  Add  
+  Add
 PROJECTCONFIG_LIBS_EDIT
- Edit 
+ Edit
 PROJECTCONFIG_LIBS_DELETE
-  Del  
+  Del
 PROJECTCONFIG_LIBS_NOEXEC
 Generate only libraries (don't generate executable)
 PROJECTCONFIG_STEPS_WARNING_APPLY_NOW
 *this changes will apply inmediatly, even if\nyou press Cancel button later.
 PROJECTCONFIG_ASK_DELETE_STEP
-Delete step: 
+Delete step:
 PROJECTCONFIG_STEPS_COMPILE_SOURCES
 **Compile Project's Source Files**
 PROJECTCONFIG_STEPS_LINK_LIBS
@@ -2937,7 +2937,7 @@ PROJECTCONFIG_STEPS_LINK_LIBS
 PROJECTCONFIG_STEPS_LINK_EXE
 **Link Executable**
 PROJECTCONFIG_ASK_DELETE_LIB
-Delete library: 
+Delete library:
 PROJECTGENERAL_CAPTION
 Project's General Settings
 PROJECTCONFIG_TAB_GENERAL
@@ -2967,27 +2967,27 @@ Additional autocompletion indexes
 PROJECTGENERAL_CUSTOM_HELPPAGE
 Project's custom help page
 PROJECTGENERAL_COMPILE_AND_RUN
- Compiliing and Running... 
+ Compiliing and Running...
 PROJECTGENERAL_BYSRC_OPTIONS
- By src compiling options... 
+ By src compiling options...
 PROJECTGENERAL_AUTOIMPROVE_TEMPLATES
- Inpections improving templates... 
+ Inpections improving templates...
 PROJECTGENERAL_DOXYGEN
  Doxygen's Settings...
 PROJECTGENERAL_CPPCHECK
- CppCheck settings... 
+ CppCheck settings...
 PROJECTGENERAL_WXFB
- wxFormBuilder integration... 
+ wxFormBuilder integration...
 PROJECTGENERAL_CUSTOM_TOOLS
- Custom Tools... 
+ Custom Tools...
 PROJECTGENERAL_COMBINE_TEMPLATE
 Merge/Update project template...
 PROJECTGENERAL_ZPR_FILE
 Project file:
 PROJECTGENERAL_STATISTICS
- Statistics... 
+ Statistics...
 PROJECTGENERAL_GRAPH
- Project files' graph... 
+ Project files' graph...
 PROJECTGENERAL_LIZARD
 Analize complexity...
 PROJECTGENERAL_AUTOCOMPLETION
@@ -3041,7 +3041,7 @@ Enter a public name for the source, or pick one from the list to replace it:
 SHARESOURCE_SHARE_BUTTON
 &Share
 SHARESOURCE_YOUR_HOSTNAME
-In order to let others download this source, you should provide them your hostname: 
+In order to let others download this source, you should provide them your hostname:
 SHARESOURCE_EMPTY_SHARING_NAME
 Public name for the shared resource cannot be empty.
 SHARESOURCE_NAME_TOO_LONG
@@ -3071,7 +3071,7 @@ Added header: <{1}>
 SOURCE_ADDED_USING_NAMESPACE
 Added "using namespace <{1}>;"
 SOURCE_HEADER_WAS_ALREADY
-No changes, headear was already present: 
+No changes, headear was already present:
 SOURCE_POPUP_REMOVE_BREAKPOINT
 Remove breakpoint
 SOURCE_POPUP_ENABLE_BREAKPOINT
@@ -3093,7 +3093,7 @@ Find "<{1}>" in all files
 SOURCE_POPUP_OPEN_SELECTED
 Open "<{1}>"
 SOURCE_NO_ITEMS_FOR_AUTOCOMPLETION
-No items for autocompletion found in this scope 
+No items for autocompletion found in this scope
 SOURCE_UNDEFINED_SCOPE_AUTOCOMPLETION
 Could not determinate autocompletion scope
 SOURCE_CANT_AUTOCOMPLETE_HERE
@@ -3141,7 +3141,7 @@ File
 THREADS_LINE
 Line
 TIPS_WELCOME
-Welcome To ZinjaI 
+Welcome To ZinjaI
 TIP_EMAIL
 E-mail
 TIPS_CAPTION
@@ -3275,7 +3275,7 @@ wxFB - Update Inherited Class
 WXFB_NO_WXFB_CLASSES
 No class generated by wxFormBuilder found.
 WXFB_GENERATE_INHERITED_CLASS
-Inherit wxFormBuilder class 
+Inherit wxFormBuilder class
 WXFB_NO_WXFB_INHERITED_CLASSES
 No class inherited from a wxFormBuilder generated one was found.
 WXFB_AUTOINHERIT_MESSAGE
