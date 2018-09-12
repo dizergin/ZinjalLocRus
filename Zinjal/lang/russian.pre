@@ -119,7 +119,7 @@ You can only step back to the point where you have enabled inverse execution.\nB
 THREADS_NO_THREADS
 <<Нет потоков>>
 THREADS_NO_INFO
-<<Thread info not available>>
+<<Информация о потоке не доступна>>
 DEBUG_BAD_BREAKPOINT_WARNING
 Some breakpoints could not been setted by the debugger.
 DEBUG_BAD_BREAKPOINT_WARNING_LOCATION
@@ -127,7 +127,7 @@ Posible causes are:\n* Some breakpoints are placed in files that do not belong t
 DEBUG_BAD_BREAKPOINT_WARNING_CONDITION
 Breakpoint's condition is not valid.
 PARSERHELP_DEFINED_IN_POST
-line
+строка
 PARSERHELP_UNION
 Union
 PARSERHELP_CLASS
@@ -189,7 +189,7 @@ PARSERHELP_PROTOTYPE
 PARSERHELP_DECLARED_IN_PRE
 Объявлено в
 PARSERHELP_FUNCTION
-Function
+Функция
 PARSERHELP_ENUM
 Enumerated type
 PARSERHELP_ENUM_CONST
@@ -219,13 +219,13 @@ Search "<{1}>" in C/C++ reference...
 INSPECTION_ERROR_ON_OPERATOR_EVALUATION
 There was an error while evaluating inspections. It can be due to the\nneed to execute an overloaded operator, and getting an error or signal\nin that execution. As a result, stack can be broken or modified (see\nbacktrace grid).
 INSPECTION_MSG_PENDING
-<<< not evaluated yet >>>
+<<< еще не вычислен >>>
 INSPECTION_MSG_PENDING_OUT_OF_SCOPE
-<<< out of scope >>>
+<<< вне области видимости >>>
 INSPECTION_MSG_ERROR
-<<< error >>>
+<<< ошибка >>>
 CODE_CANNOT_GENERATE_FUNCTION
-Could not determine the function prototype.
+Не могу определить прототип функции.
 MENUITEM_FILE
 &Файл
 MENUITEM_FILE_NEW
@@ -2327,7 +2327,7 @@ Empty File
 NEWWIZARD_USE_TEMPLATE
 From Template
 NEWWIZARD_PROYECT
-New Project
+Новый проект
 NEWWIZARD_PROYECT_FROM_FILES
 Import Proyect
 NEWWIZARD_FILETYPE
