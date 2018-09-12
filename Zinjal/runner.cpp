@@ -30,35 +30,41 @@ using namespace std;
 
 const char *lang_debug_finished[] = {
 	"<< La depuracion ha finalizado >>",
-	"<< Debugging session has finished >>"
+	"<< Debugging session has finished >>",
+    "<< Отладочная сессия окончена >>"    
 };
 
 const char *lang_program_finished[] = {
 	"<< El programa ha finalizado: codigo de salida: ",
-	"<< Program finished: exit code: "
+	"<< Program finished: exit code: ",
+    "<< Программа завершена с кодом: "        
 };
 
 const char *lang_program_finished_abnormal[] = {
 	"<< El programa ha finalizado anormalmente: signal ",
-	"<< Abnormal program termination: signal "
+	"<< Abnormal program termination: signal ",
+    "<< Ненормальное завершение программы: сигнал "    
 };
 
 const char *lang_press_key_to_close[] = {
 	"<< Presione enter para cerrar esta ventana >>",
-	"<< Press enter to close this window >>"
+	"<< Press enter to close this window >>",
+    "<< Чтобы закрыть окно нажмите клавишу Enter >>"    
 };
 
 const char *lang_error_running[] = {
 	"Error ejecutando: ",
-	"Error running: "
+	"Error running: ",
+    "Ошибка выполнения: "    
 };
 
 const char *lang_error_creating_process[] = {
 	"Error al crear proceso: ",
-	"Error creating process: "
+	"Error creating process: ",
+    "Ошибка создания процесса: "        
 };
-
-int lang_idx=0;
+ 
+int lang_idx=2;
 
 // void on_quit(int sig) {
 // 	cerr<<endl<<endl<<lang_debug_finished[lang_idx]<<endl<<lang_press_key_to_close[lang_idx];
@@ -80,6 +86,7 @@ int lang_idx=0;
 // hay 2 casos especiales, sigusr2 que la usa zinjai para indicar que debe matar al proceso hijo, cuando
 // se hace click en stop, porque si se mata la terminal y los hijos manejan sighup sin salir quedan
 // andando huerfanos, y la otra es sighup que se recibe cuando se quiere cerrar la terminal desde el gestor de ventanas
+
 pid_t child_pid=0;
 bool received_sighup=false;
 void forward_signal(int s) {
@@ -111,7 +118,7 @@ void do_waitkey() {
 }
 
 int main(int argc, char *argv[]) {
-	
+    SetConsoleOutputCP(1251);
 	bool tty=false;
 	string tty_fout;
 	int waitkey=0;
