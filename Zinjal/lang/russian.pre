@@ -2245,9 +2245,9 @@ Show progress while compiling (cmake style)
 MAKEFILE_GENERATE
 Generate
 GENERAL_NO_BUTTON
- &No
+ &Нет
 GENERAL_YES_BUTTON
- &Yes
+ &Да
 MULTIFILE_CAPTION
 Add Files To Project
 MULTIFILE_DIR
