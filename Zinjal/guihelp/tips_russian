@@ -8,14 +8,14 @@
 Вы можете реорганизовать панел редактора (с открытыми файлами) просто перетаскивая их за заголовки (табуляторы). Вы можете также сделать видмимыи одновременно более чем одну панель если перетащите их внутрь видимой панели.
 Вы можете выделить логический блок (код заключенный в фигурные скобки) используя комбинацию клавиш Ctrl+M.
 Если для выполния вашей программы необходимо задать аргументы командной строки, вы можете скзать ZinjaI запрашивать их перед каждым запуском. Для этого вы должны задействовать опцию "Всегда запрашивать аргументы" вкладки "Общие" диалога "Параметры компиляции и выполнения" (ВыполнениеRun->Параметры проекта..., or Alt+F9)
-Вы можете быстро открыть файл на который ссылается исходник (например в секции заголовочных файлов) просто переместив курсор на название и нажав Ctrl+Enter.
-Вы можете совместно исепользовать ваши исходники с другими пользователями доступными по сети используя команды вложенного меню "Общие исходники в локальной сети" меню "Инструменты".
-Панель "Дерево символов проекта" (меню <I>Вид</I> клавиша <I>F2</I>) отображает список всех функций, классов, макросов определенных в программе. Для классов цветом выделяются атрибуты области видимости его членов (красным=частная, желтым=защищенная, зеленым=публичная).
-При запуске программы с помощью клавиши F9, при необходимости исходный код записывается и компилируется автоматически, так что вам не нужно делать эти действия по отдельности.
-Вы можете найти и просмотреть макроопределение из ващего кода поместив на его название курсор редактирования и нажав комбинацию  Ctrl+F1..
-Для комментирования и разкомментирования строки достаточно использовать комбинации Ctrl+D и Ctrl+Shift+D (без необходимости выделения строки).
+You can quickly open a file that your code refer to (for instance, an include) placing the text cursor over it an pressing Ctrl+Intro.
+You can share your code to other PCs over your LAN with the commands "Share" and "Open Shared" from "Tools" menu.
+El arbol de simbolos (menu <I>Ver</I> o tecla <I>F2</I>) te permite listar todas las macros, clases y funciones definidas en tu programa. En el caso de las clases, el color de los inconos de sus metodos y atributos indica su alcance (rojo=privado, amarillo=protegido, verde=publico). Ademas puedes elegir incluir o no en el listado los simbolos de los archivos que incluye (mediante <I>#include</I>) tu fuente, haciendo click con el boton derecho sobre el arbol.
+When you run a program with F9 key, if the source code was modified, it is saved a compiled again automatically before running. So, you should never need to do it yourself.
+You can find and see macro definition from your code by placing the text cursor over its name and pressing Ctrl+F1..
+You comment and uncomment lines with the shortcuts Ctrl+D and Ctrl+Shift+D (you don't need to select the whole line).
 Puedes escribir tu cdigo ms rpida y cmodamente si actualizas el rbol de smbolos, ya que cuando se actualiza el rbol de smbolos, la informacin que se obtiene se utiliza tambin se utiliza para generar las ayudas de autocompletado y tips de llamadas a funciones. El rbol se actualiza al presionar la tecla <I>F2</I> o automticamente al guardar o ejecutar el programa.
-Если ваша панель "Обозреватель символов" обновлена (клавиша F2), вы можете использовать комбинацию Shit+F1 для получения информации определенной в вашем исходнике (глобальные переменные, классы, функции, макроопределения).
+If your Symbol's Tree is up to date (F2 key), you can use Shit+F1 shortcut to obtain information about some elements defined in your code (global variables, classes, functions, macros).
 Smart indention (<I>File-&gt;Preferences...-&gt;Writing-&gt;Smart indention) allows you to write code faster without thinking about indention. ZinjaI will decide how to indent your code will you write it. But if you already have bad intented code, you can select it and correct it automaticaly with <I>Ctrl+I</I>shortcut, or the item <I>Indent Selected Lines</I> from <I>Edit</I> menu.
 Las herramientas de <I>Indentar bloque</I>, <I>Seleccionar bloque</I>, y las opciones de plegado de cdigo pueden ser tiles para verificar si las llaves estan correctamente colocadas, por ejemplo, seleccionando o plegando un bloque para ver si concuerda con lo esperado.
 Puedes identificar rapidamente todas las funciones de un archivo utilizando el plegado de codigo. Por ejemplo, presionando <I>Ctrl+1</I> puedes cerrar todas las clases y funciones y ver asi solo sus nombres. Presionando <I>Ctrl+2</I> puedes cerrar el segundo nivel (por ejemplo, todos los metodos implementados junto con la delcaracin de la clase), etc. Para volver a desplegarlos utiliza <I>Alt+1</I>, <I>Alt+2</I>, etc. Para plegar o desplegar todos los niveles al mismo tiempo utilza <I>Ctrl+0</I> y <I>Alt+0</I> respectivamente.
@@ -36,39 +36,39 @@ Puedes consultar la ayuda rpida sobre cualquier elemento del cdigo fuente haci
 You can walk through compilation's errors and warning with the shortcuts <I>Ctrl+&lt;</I> and <I>Ctrl+Shift+&lt;</I>.
 Se cambiar la apariencia de <I>ZinjaI</I> utilizando un "tema" diferente (men <I>Archivo</I>-&gt;<I>Preferencias...</I>-&gt;<I>Tema de Iconos</I>).
 
-Вы можете отобразить содержимое массива или матрицы полностью в специальном диалоге щелкнув правой кнопкой мышки над его инспекцией и выбрав "Показать в отдельной таблице" из всплывающего меню.
-Вы можете разделить одну сложную инспекцию (массив, структуру, класс) в несколько вспомогательных инспекций которые будут представлять свои элементы/атрибуты, двойным щелчком мышки над ее значением в панели инспекции.
-В процессе отладки вы можете просмотреть значения сложной структуры (массива, класса и т.д.) щелкнув над ней правой кнопкой мышки над ее названим в таблице инспекций и выбрав пункт всплывающего меню "Исследовать данные".
-Вы можете установить продвинутые свойства точек останова щелкнув на их иконку (красный круг на границе редактирования) при нажатой клавише Ctrl.
+You can display a whole array or matrix, in a special dialog by clicking with right button over its inspection and selecting "Show in its own table" from the popup menu.
+You can split one complex inspection (array, struct, class) into multiple sub-inspections that will represent its elements/attributes, by double-clicking on its value in inspection panel.
+Puede explorar  una inspeccin de una estructura de datos (un arreglo, una clase, etc.) para observar su composicin en una estrucutra jerrquica haciendo click con el botn derecho sobre la misma y seleccionando la opcin "Explorar inspeccin".
+You can set advanced breakpoint's properties by clicking on its mark (the red circle in the margin) holding Ctrl key.
 
-Эта программа находится в стадии разработки. Если вы найдете ошибку или то что вы хотите увидеть измененным, пишите по адресу <I>zaskar_84@yahoo.com.ar</I>, или оставьте сообщение в секции <I>Контакты</I> (<A href="http://zinjai.sourceforge.net">http://zinjai.sourceforge.net/index_en.php?page=contacto_en.php</A>).
-Есди вы имеете прямой доступ к интернету вы можете проверить обновления выбрав пункта <I>Проверить обновления...</I> меню <I>Помощь</I>.
+This software is still under development. If you find a bug, or something you'd like to see changed, you can write to <I>zaskar_84@yahoo.com.ar</I>, or leave a message in <I>Contact</I> web site's section (<A href="http://zinjai.sourceforge.net">http://zinjai.sourceforge.net/index_en.php?page=contacto_en.php</A>).
+If you have a direct internet conection you can check for updates by clicking the <I>Check for updates...</I> option in <I>Help</I> menu.
 
-Вы можете установить комбинации клавиш или кнопки панели инструментов для быстрого доступа к вашим выбранным инструментам или документам  из подменю "Дополнительные инструменты" меню "Инструмента". <A href="help:custom_tools.html">Узнать об этом больше...</A>
+You can set shortcuts or toolbar buttons to launch your preferred tools or documents quickly from "Custom tools" submenu in "Tools" menu. <A href="help:custom_tools.html">Read more...</A>
 
-Если вы не хотите видеть боковые и нюжнюю панели все время, вы можете заставить их скрываться автоматически, оставляя только их заголовки видимыми, такчто вы можете раскрыть их перемещая курсор мышки над этими заколовками. Попробуйте эту функцию, задействовав опцию <I>Автоскрытие панелей</I> из секции <I>Общие</I> диалога <I>Настройки среды и предпочтения</I> и перезапустив <I>ZinjaI</I>.
+If you dont want to see lateral and bottom panels all the time, you can make them hide automatically, leaving only their names visible, so you can unfold them by moving the mouse over those names. In order to try that, enable the option <I>Autohide Panels</I> from <I>General</I> section in <I>Preferences</I> dialog and restart <I>ZinjaI</I>.
 
-Вы можете напечатать прототипы функций\методов в .h файле и сказать ZinjaI сгенерировать автоматически ассоциированные реализации исходного кода (оьъявления пустых методов/функций) командой "Создать нереализованные Методы/Функции..." меню "Инструменты".
-В большом и запутанном коде, вы можете узнать где вы находитесь (файд, строка, класс, метод, функция) нажав комбинацию <I>Ctrl+Alt+Space</I>.
-Вы можете определить <A href="help:autocode.html">автокоды</A> (куски кода определенные подобно макросам C) и использовать их для ускорения набор кода. ZinjaI сделает соответствующие замены и раскрытия кода вы нажмете клавишу <I>Tab</I>.
-Вы можете увидеть список <A href="help:autocode.html">автокоды</A> или вызвать автозавершения автокодов с помощью клавиш <I>Ctrl+Shift+Space</I>.
-Вы можете закрыть все окна редактирования кроме текущего с помощью комбинации <I>Ctrl+Alt+W</I>.
-В таблице <A href="help:atajos.html">комбинации клавиш</A> суммируется их назнавчение, вы можете использовать ее для того чтобы обучиться разрабатывать программы быстрее.
-Вы можете найти больше информации о <I>ZinjaI</I> и других проектах в блоге <A href="http://cucarachasracing.blogspot.com.ar">http://cucarachasracing.blogspot.com.ar</A>.
-Вы можете изменить текущий профиль компиляции и выполнения вашего проект щелкнув правой кнопкой мышки на кнопке "Параметры проекта" панели инструментов  "Выполнение".
+You can type functions/methods' prototypes in a .h file and ask ZinjaI to generate automatically the asociated implemntation base code (empty methods/functions' definitions) with command "Implement missing Methods/Functions..." from "Tools" menu.
+In a big or messy code, you can ask where you are (wich file, line, class, method, function) by hitting <I>Ctrl+Alt+Space</I> shortcut.
+You can define <A href="help:autocode.html">autocodes</A> (pieces of code defined similar to C macros) and use them to speed up your writting without. ZinjaI will replace and expand them for you when you hit <I>Tab</I> key.
+You can see <A href="help:autocode.html">autocodes</A> list or invoke autocode's autocompletion with <I>Ctrl+Shift+Space</I> shortcut.
+You can close all code tabs but the active one with <I>Ctrl+Alt+W</I> shortcut.
+In help you can find a table that summarizes most of the <A href="help:atajos.html">keyboard shorcuts</A> that you can try learn to develop faster.
+You can find more information about <I>ZinjaI</I> and other projects in the blog <A href="http://cucarachasracing.blogspot.com.ar">http://cucarachasracing.blogspot.com.ar</A>.
+You can change the current compilation and execution profile for your project with a right click on the compilation and execution's settings button from "Run" toolbar.
 
-Вы можете модифицировать цвета подсветки синтаксиса для адаптации ZinjaI своим предпочтениям. ZinjaI включает две предопределенные схемы, одну для светлого фона редактирования(белая) и одну для темного фона (черную), но вы можете измениять их построив свою собственную схему. Для этого используйте пункт  "Конфигурация цветовой схемы..." меню "Вид".
-В отладочную сессию, ZinjaI может предоставить специальное меню автозавершения для выражений введенных в таблицу инспекции.  Вы можете вызвать его нажав клавишу TAB после набора первых символолв выражения пока программа приостановлена.
-Вы можете изменить набор комбинаций клавиш  ZinjaI's из вкладки "Общие" диалога "Настройки среды и предпочтения" (меню "Файл"->"Настройки среды и предпочтения....").
-Дважды щелкнув мышкой на идентификаторе вы отметите все включения его в текущем файле, так что можно легко найти места где он появляется. Для того что бы убрать отметку сделайте двойной щелчек мышкой над пустой областью редактирования. Вы можете скрыть этот функционал изменяя цветовую схему.
-ZinjaI готов к работе сразу, как только отобразиться его основное окно. Если это произойдет быстро, то окно заставки будет видимо еще в течении нескольких секунд. Щелкните над ним кнопкой мышки для того что бы немедленно начать работу.
-Вы можете посмотреть как препроцессор раскрывает макроопределения с помощью комбинации <I>Ctrl+Shift+M</I>.
-Вы можете редактировать все вхождения еденичного идентификатора в блок кода одновременно отметив его (двойной щелчек правой кнопки мышки над ним), выделив блок кода и нажав <I>Alt+Shift+Enter</I> (или используя всплывающее меню).
-ZinjaI может генерировать определения или объявления функции по ее вызову. Сначала напишите вызов, затем щелкнув правой кнопкой мышки на нем из выпадающего меню выбирите пункт <I>Генерировать объявление/определение функции</I>.
-Вы можете получить контекстное меню с командами из подменю <I>Генерация кода</I> (из <I>Инструменты</I>) с помощью комбинации <I>Ctrl+Shit+X</I>.
-Нет необходимости приостанавливать выполнение программы при отладке для добавления, удаления, активации (деактивации) точек останова.
-Вы можете определить специальный тип точек останова, которые будут вынуждать ZinjaI обновлять все инспеции не приостанавливая выполнение программы. Вы можете определить это поведение в диалоге "Свойства точек останова" (<I>Shift+Click</I> + щелчек мышкой на левой границе редактирования, или комбинацией <I>Ctrl+F8</I>).
-Доступно три метода для фильтрации результатов в меню автозавершения: вы можете видеть только опиции которые начинаются точно теми же символами что и набранные вами, опции которые содержат набранные символы как свою подстроку, и опции содержащие похожие на набранные символы подстроки (это помогает пренебречь ошибками печати при вводе). Вы можете переключаться между методами через вкладку  <I>Написание/I> диалога <I>Настройки среды и предпочтения</I>.
-При открытии проекта, много времени занимает открытие списка составляющих его файлов. Если вы хотите начать работу как можено быстрей работайте одновременно (т.е. держите открытыми в редакторе) с небольшим числом файловю Проет будет загружаться быстрее и вы начнете работу скорее.
-Проект может наследовать список файлов другого проекта, и этот список будет автоматически обновляться каждый раз когда вы открываете его (<A href="help:project_inheritance.html">узнать об этом больше...</A>).
-Если вы не знаете или не помните как найти команду или функцию среды разработки вы можете восопользоваться комбинацией <I>Ctrl+F2</I> для вызова диалога глобального поиска (или вызвать его через меню <I>Помощь</I>).
+You can modify syntax highlighting colours to adapt ZinjaI to your own preferences. ZinjaI includes two predefined schemes, one for light background (white) and one for dark background (black), but you can change them to build your own scheme. To do that use the "Configure colors' scheme..." item from "View" menu.
+On a debugging session, ZinjaI can present an special autocompletion menu for the expressions entered in the inspection table. You can invoke this feature by pressing TAB key after typing the first characters of your expression while your program is paused.
+You can change ZinjaI's shortcuts from "General" tab in Preference dialog ("File" menu->"Preferences....").
+Doble-clicking an identifier in your code will highlight all its occurrences in current file, so you can easily find where it's being referenced. To remove that highlight just doble-click in an empty space. You can hide this feature changing the color scheme.
+When ZinjaI starts, it is ready to work as soon as its main window is displayed. If this happens too fast, the splash screen will remain visible a few seconds, but you can hide it with a click and start working inmediatly.
+You can see how the compiler's preprocessor expand a line of code replacing constans and functions with <I>Ctrl+Shift+M</I>.
+You can edit all ocurrences of a single identifier in a block of code at once by highlighting the identifier (doble click on it), selecting the block of code and hitting <I>Alt+Shift+Enter</I> (or using the popup menu).
+ZinjaI can generate a function's definition or declaration from a function call. First, write the call, then right click the identifier, and chose the <I>Generate function's definition/declaration</I> item.
+You can get a contextual popup menu with commands from <I>Code generation</I> submenu (from <I>Tools</I>) menu with <I>Ctrl+Shit+X</I>.
+There is no need to pause the execution while debuggin in order to add, remove, enable or disable a breakpoint.
+You can define a special kind of breakpoint that will make ZinjaI update all inspections but won't pause the execution. You can define that behaviour from the Breakpoint Options dialog (<I>Shift+Click</I> or left margin, or <I>Ctrl+F8</I>).
+There are three methods available to filter the results shown in the autocompletion menu: you could see only options starting exactly as the typed part of the identifier, options that contain the type part as substring, or even options that contains a similar substring (this can tolerate a few typing errors). You can switch methods from <I>Writting</I> tab in <I>Preferences</I> dialog.
+When openning a project, what takes the most time to load before letting the user interact are the oppened source files. If you keep the number of open tabs low, the project will load much faster so you can start working sooner.
+A project can inherit the list of files from another project, and that list will be automatically updated every time you open it (<A href="help:project_inheritance.html">read more...</A>).
+If you don't know or remember where to find a command or feature, you can access a global search dialog  hitting <I>Ctrl+F2</I> (or from <I>Help</I> menu).
