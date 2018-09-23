@@ -1,5 +1,5 @@
 ZINJAI_LANGUAGE_FILE
-russian
+русский
 HTMLEXPORT_STATUS
 Генерирую html...
 GENERAL_READY
@@ -9,31 +9,31 @@ MAINW_CT_ERRORS
 MAINW_CT_WARNINGS
 Предупреждения
 CONFIG_NO_TERMINAL_FOUND
-No known console application was found. Please\ninstall xterm, konsole or gnome-terminal; then\ngo to "Console application" field in "Paths 2"\ntabsin "Preferences" (from "File" menu) dialog\nand set it.
-CONFIG_TERMINAL_WARNING
-The only one known terminal application found in this system is <{1}>.\nSome versions of this app can cause problems when trying to run compiled\nprograms/projects from ZinjaI. If you cannot run any program/project, try to set\na different terminal application(from "File" menu, choose "Preferences..." and change\nthe files "Terminal Command" from "Paths 2" tab, recommended terminal is xterm).
+Не найдено ни одного известного консольного приложения.\nУстановите xterm, konsole или gnome-terminal\nи в пункте "Настройки..." меню "Файл"  во вкладке\n"Пути 2" установите путь в поле\n"Консольное приложение".
+CO NFIG_TERMINAL_WARNING
+Единственное найденное в системе консольное приложение это <{1}>.\nНекоторые версии этого приложения могут вызывать проблемы при попытке\nзапустить скомпилированные программы/проекты. Если вам не удаётся запустить программу\nпопробуйте выбрать другое консольное приложение(в меню "Файл" выберите "Настройки..." и измените\nполе "Консольное приложение во вкладке "Пути 2", рекомендуется использовать xterm).
 CONFIG_TERMINAL
 Консольное приложение
 CONFIG_COMPILER
 Компилятор C++
 CONFIG_COMPILER_NOT_FOUND
-C++ compiler (g++) was not found in your system. You must\ninstall it with your distribution's package maganer(aptitude,\nyum, yast, installpkg...).
+В вашей системе не найден компилятор C++ (g++). Вы должны\nустановить его с помощью менеджера пакетов вашего дистрибутива\n(aptitude, yum, yast, installpkg...).
 CONFIG_DEBUGGER
 Отладчик
 CONFIG_DEBUGGER_NOT_FOUND
-GNU source-level debugger (gdb) was not found in your\nsystem. You must install it with your distribution's\npackage maganer(aptitude, yum, yast, installpkg...).
+В вашей системе не найден GNU отладчик (gdb). Вы должны\nустановить его с помощью менеджера пакетов вашего дистрибутива\n(aptitude, yum, yast, installpkg...).
 PROJMNGR_WXFB_NOT_FOUND
-This projects need wxFormBuilder, but this ZinjaI can't find this\nsoftware. To download wxFormBuilder go to http://wxformbuilder.org.\nIf it is already installed enter the correct path in tab "Paths 2"\nin "Preference" windows (from "File" menu).
+Для этих проектов необходим wxFormBuilder, но ZinjaI не может его найти.\nЧтобы загрузить wxFormBuilder перейдите на http://wxformbuilder.org.\nЕсли он уже установлен, перейдите в пункт "Настройки..." (меню "Файл")\nи проверьте путь во вкладке "Пути 2".
 PROJMNGR_REGENERATING_ERROR_2
-Automatic updates for this project will be temporarily disabled.
+Автоматические обновления для этого проекта будут временно отключены.
 GENERAL_WARNING
 Предупреждение
 MAINW_DOXYGEN_MISSING
-Doxygen isn't present in your system or its path isn't correctly defined\nin ZinjaI's settings. To download Doxygen go to http://www.doxygen.org.\nIf it is already installed, check the path in "Paths 2" tab in\nPreference's dialog (from "File" menu).
+В вашей системе отсутсвует Doxygen или в настройках не верно указан путь\nдо него. Чтобы загрузить Doxygen перейдите на http://www.doxygen.org.\nЕсли он уже установлен, перейдите в пункт "Настройки..." (меню "Файл")\nи проверьте путь во вкладке "Пути 2".
 MAINW_VALGRIND_MISSING
-Valgrind isn't present in your syste or its path isn't correctly defined\nin ZinjaI's settings. To download Valgrind go to http://www.valgrind.org.\nIf it is already installed, check the path in "Paths 2" tab in\nPreference's dialog (from "File" menu).
+В вашей системе отсутсвует Valgrind или в настройках не верно указан путь\nдо него. Чтобы загрузить Valgrind перейдите на http://www.valgrind.org.\nЕсли он уже установлен, перейдите в пункт "Настройки..." (меню "Файл")\nи проверьте путь во вкладке "Пути 2".
 MAINW_CPPCHECK_MISSING
-CppCheck isn't present in your system or its path isn't correctly defined\nin ZinjaI's settings. To download Doxygen go to http://cppcheck.sourceforge.net.\nIf it is already installed, check the path in "Paths 2" tab in\nPreference's dialog (from "File" menu).
+В вашей системе отсутсвует CppCheck или в настройках не верно указан путь\nдо него. Чтобы загрузить CppCheck перейдите на http://cppcheck.sourceforge.net.\nЕсли он уже установлен, перейдите в пункт "Настройки..." (меню "Файл")\nи проверьте путь во вкладке "Пути 2".
 CONFIG_MAC_DEADKEYS_PROBLEM_QUESTION
 Do you use Alt Gr plus the keys rigth to 'P' and 'ГѓВ‘' for\ninserting '[' and '{' symbols (Spanish-ISO keyboard)?\n\nNote: if you experience problems with your keyboard later,\nyou'll be able to change this setting from Preferences diagog.
 CONFIG_APTGET_BUILD_ESSENTIAL
@@ -45,7 +45,7 @@ CONFIG_OPEN_PREFERENCES
 CONFIG_APTGET_FAILED
 Автоматичкская установка неудачна.
 CONFIG_ABOUT_TO_APTGET
-Отсутствующие ПО будет установлено в новом окне терминала.\nЭто действие моет потребовать администратоского пароля.\nZinjaI продолжит работу когда окно нового терминала закроется.
+Отсутствующие ПО будет установлено в новом окне терминала.\nЭто действие может потребовать администратоского пароля.\nZinjaI продолжит работу когда окно нового терминала закроется.
 MAINW_CUSTOM_TOOL_UNDEFINED
 Этот инструмент не отконфигурирован до конца.\nИспользуйте пункт "Установки..." в подменю "Дополнительные инструменты" меню "Инструменты".
 GENERAL_ERROR
@@ -61,11 +61,11 @@ OSD_STARTING_DEBUGGER
 GENERA_CONSOLE_CAPTION
 ZinjaI - Консоль выполнения
 DEBUG_ERROR_WITH_TERMINAL
-Возникла ошибка при запуске терминаля в процессе отладки.\nПроверьте корректность поля "Консольное приложение" во вкладке "Путь 2"\nдиалога "Настройки среды и предпочтения".
+Возникла ошибка при запуске терминала в процессе отладки.\nПроверьте корректность поля "Консольное приложение" во вкладке "Путь 2"\nдиалога "Настройки среды и предпочтения".
 DEBUG_STATUS_INIT_ERROR
 Неудачная инициализация отладчика
 DEBUG_NO_SYMBOLS
-Отлаживаемый файл н содержит отладочной информации.\nПроверте что задействована оция включения отладочной информации,\nи поле "УБрат из Exe инфо" не отмечено\nво вкладке "Компоновка". Затем откомпилируйте проект заново\nВыполнить -> Выполнить(Сохранить и компилировать если необходимо).
+Отлаживаемый файл не содержит отладочной информации.\nПроверте что задействована опция включения отладочной информации,\nи поле "УБрат из Exe инфо" не отмечено\nво вкладке "Компоновка". Затем откомпилируйте проект заново\nВыполнить -> Выполнить(Сохранить и компилировать если необходимо).
 DEBUG_ERROR_STATING_GDB
 Возникла ошибка при запуске отладчика.
 DEBUG_ERROR_STARTING_GDB_LINUX
@@ -121,11 +121,11 @@ THREADS_NO_THREADS
 THREADS_NO_INFO
 <<Информация о потоке не доступна>>
 DEBUG_BAD_BREAKPOINT_WARNING
-Some breakpoints could not been setted by the debugger.
+Некоторые точки останова не могли быть настроены отладчиком.
 DEBUG_BAD_BREAKPOINT_WARNING_LOCATION
 Posible causes are:\n* Some breakpoints are placed in files that do not belong to the project.\n* Some breakpoints are placed in lines that don't generate executable code (comments, empty lines, ...)\n* Missing or outdated debugging information. Use Clean item from Run menu before\n  debugging.\n* Spaces or special characters in files' paths. If that is the case, try moving\n  the project or renaming the directories.
 DEBUG_BAD_BREAKPOINT_WARNING_CONDITION
-Breakpoint's condition is not valid.
+Условие точки останова недопустимо.
 PARSERHELP_DEFINED_IN_POST
 строка
 PARSERHELP_UNION
